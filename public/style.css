@@ -1,0 +1,81 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+.profile_img img{
+    margin-left: 42%;
+    width: 161px;
+    height: 143px;
+    border-color: #d62929;
+    border-radius: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.customer_image{
+    background: #eee;
+    background-image: linear-gradient(to top, #265835 0%, #fff9fd 100%);
+}
+.edite-btn{
+    margin-left: 270px;
+    background: orange;
+    padding: 10px 39px;
+    border: none;
+    border-radius: 17px;
+    color:#fff;
+    font-weight: bold;
+}
+.edite-btn:hover{
+    background: #eee;
+    transition: .4s;
+    color: #000;
+}
+.user_address {
+    resize: none;
+}
+.image-upload{
+    margin-top: -25px;
+}
+.star-user{
+    color: red;
+}
+.user-info h6{
+    border: 1px solid #4c2e2e;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 16.4px;
+    background: orange;
+    cursor:pointer;
+}
+.user-info h6:hover{
+    background:#8170A3 ;
+    color: #fff;
+    transition: .4s;
+}
+
